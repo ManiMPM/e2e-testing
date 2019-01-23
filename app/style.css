@@ -1,0 +1,48 @@
+.nopaddingLeft{
+    padding-left:0px;
+}
+.nopadding{
+    padding-left:0px;
+    padding-right:0px;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 30%;
+}
+.title{
+    color:#0685ea;
+    font-size:22px;
+    font-weight:bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+table tr td, th{
+    padding:7px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+table tr th{
+    text-align: center;
+}
+
+.form-control{
+    border-radius: 0px;
+}
+.btn-primary{
+    background-color:#0685ea;
+}
+.btn-default{
+    background-color:#afaeae;
+    color:#fff;
+
+}
+.editWrapper{
+    margin: 0 auto;
+    margin-top:20px;
+    width:40%;
+}

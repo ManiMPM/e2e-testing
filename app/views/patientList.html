@@ -1,0 +1,14 @@
+<div class="container wrapper">
+    <h5 class="title">Patients List</h5>
+    <table border="1" cellpadding="10" cellspacing="3" class="col-lg-12">
+        <tr>
+            <th>Name</th>
+        </tr>
+        <tr ng-repeat="data in patientLists">
+            <td>
+                <div ng-click="goToEdit(data)">{{ data.name }}</div>
+            </td>
+        </tr>
+    </table>
+
+</div>

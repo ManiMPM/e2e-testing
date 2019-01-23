@@ -1,0 +1,103 @@
+[
+  {
+    "id":1,
+    "name": "Alisa",
+    "age": 23,
+    "gender": "female",
+    "email": "Alisa@gmail.com",
+    "height": 2.3,
+    "dateofbirth": "10/12/2000",
+    "address": "West Yorkshire"
+  },
+  {
+    "id":2,
+    "name": "John",
+    "age": 15,
+    "gender": "male",
+    "email": "John@gmail.com",
+    "height": 2.3,
+    "dateofbirth": "10/12/2004",
+    "address": "West Yorkshire dsfd"
+  },
+  {
+    "id":3,
+    "name": "Asim John ",
+    "age": 15,
+    "gender": "male",
+    "email": "Asim@gmail.com",
+    "height": 2.3,
+    "dateofbirth": "10/12/2004",
+    "address": "West Yorkshire dsfd"
+  },
+  {
+    "id":4,
+    "name": "Sturat John ",
+    "age": 15,
+    "gender": "male",
+    "email": "Asim@gmail.com",
+    "height": 2.3,
+    "dateofbirth": "10/12/2004",
+    "address": "West Yorkshire dsfd"
+  },
+  {
+    "id":5,
+    "name": "Shammy",
+    "age": 15,
+    "gender": "male",
+    "email": "Shammy@gmail.com",
+    "height": 2.3,
+    "dateofbirth": "10/12/2004",
+    "address": "West Yorkshire dsfd"
+  },
+  {
+    "id":6,
+    "name": "Junny",
+    "age": 15,
+    "gender": "male",
+    "email": "Junny@gmail.com",
+    "height": 2.3,
+    "dateofbirth": "10/12/2004",
+    "address": "West Yorkshire dsfd"
+  },
+  {
+    "id":7,
+    "name": "Ramesh",
+    "age": 15,
+    "gender": "male",
+    "email": "Asim@gmail.com",
+    "height": 2.3,
+    "dateofbirth": "10/12/2004",
+    "address": "West Yorkshire dsfd"
+  },
+  {
+    "id":8,
+    "name": "Jimmy John",
+    "age": 15,
+    "gender": "male",
+    "email": "Asim@gmail.com",
+    "height": 2.3,
+    "dateofbirth": "10/12/2004",
+    "address": "West Yorkshire dsfd"
+  },
+  {
+    "id":9,
+    "name": "Virat",
+    "age": 15,
+    "gender": "male",
+    "email": "Virat@gmail.com",
+    "height": 2.3,
+    "dateofbirth": "10/12/2004",
+    "address": "West Yorkshire dsfd"
+  },
+  {
+    "id":10,
+    "name": "Smith John ",
+    "age": 15,
+    "gender": "male",
+    "email": "smith@gmail.com",
+    "height": 2.3,
+    "dateofbirth": "10/12/2004",
+    "address": "West Yorkshire dsfd"
+  }
+
+]

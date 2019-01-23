@@ -1,0 +1,44 @@
+<form class=" editWrapper" name="patientForm">
+    <div class="form-group" id="nameGrp">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" ng-model="selectedPatientData.name" placeholder="Name">
+    </div>
+    <div class="form-group" id="ageGrp">
+        <label for="age">Age</label>
+        <input type="number" class="form-control" id="age" ng-model="selectedPatientData.age" placeholder="Age">
+    </div>
+    <div class="form-group" class="gender">
+        <div> <label for="gender">Gender</label></div>
+        <div class="col-sm-12 nopadding">
+            <select id="Gender" class="form-control" ng-model="selectedPatientData.gender">
+                <option selected value="">Choose...</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+        </div>
+    <div class="form-group" class="email">
+        <label for="email"  class="col-sm-10 nopaddingLeft">Email</label>
+        <input type="text" name="email" class="form-control" ng-model="selectedPatientData.email" id="email" placeholder="Email" ng-pattern = '/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/' required>
+    <span class="error" ng-if="patientForm.email.$invalid && patientForm.email.$dirty"> Invalid email</span>
+
+    </div>
+    <div class="form-group" class="height">
+        <label for="height">Height</label>
+        <input type="number" class="form-control" id="height" ng-model="selectedPatientData.height" placeholder="height" min="0" max="99" step="0.1">
+    </div>
+    <div class="form-group" class="dob">
+        <label for="birth">Date Of Birth</label>
+        <input type="date" class="form-control" id="birth" ng-model="selectedPatientData.dateofbirth" placeholder="Date Of Birth">
+    </div>
+    <div class="form-group" class="address">
+        <label for="address">Address</label>
+        <textarea class="form-control" rows="5" id="address" ng-model="selectedPatientData.address"></textarea>
+    </div>
+
+        <div class="col-md-12 nopaddingLeft" class="footer">
+            <button id="save" name="save" class="btn btn-primary" ng-click="save()">Save</button>
+            <button id="cancel" name="cancel" class="btn btn-default" ng-click="cancel()">Cancel</button>
+            <button id="delete" name="cancel" class="btn btn-danger" ng-click="delete(selectedPatientData.id)">Delete</button>
+        </div>
+</form>
